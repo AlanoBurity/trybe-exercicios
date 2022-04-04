@@ -1,0 +1,44 @@
+
+body {
+    font-size: 15px;
+    font-style: inherit;
+    line-height: 25px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 65px;
+    font-family: sans-serif;
+    color: orange;
+}
+p {
+   font-weight:600;
+   font-size: 2em;
+}
+ul{
+    list-style:square;
+    display: inline-block;
+    background-color: blanchedalmond;
+    
+    
+}
+#Verde {
+    color: green;
+    font-size: 2em;
+}
+#Preto{
+    text-align: center;
+    text-decoration: double;
+    color: black;
+    text-decoration: solid;
+    font-size: 2em;
+    
+}
+#Azul   {
+    color: blue;
+    font-size: 2em;
+}
+.fundo {
+    background-color: bisque;
+}
+
