@@ -16,13 +16,13 @@ function createDaysOfTheWeek() {
   // Escreva seu código abaixo.
   
   
+ 
   
-  function daysOfMonth (){
+ function daysOfMonth (){
   
   const dezDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
-     
-
-
+  
+ 
   let diasDoMes =  document.querySelector('#days');
   
 
@@ -43,7 +43,28 @@ function createDaysOfTheWeek() {
       diasDoMesListItem.className = 'day friday';
     }
    } 
-  };
-daysOfMonth();
+  }
+  daysOfMonth()
+
+
 //2
+
+function cBotao(string){
+ const botaoContainer = document.querySelector('.buttons-container');
+ const botao = document.createElement('div');
+
+
+ botao.id = 'btn-holiday';
+ botao.className = 'buttons-container';
+ botao.innerHTML = '<button>Feriado</button>';
+ botaoContainer.appendChild(botao);
+}
+cBotao('Alano');
+ 
+
+
+
+
+
+
 
