@@ -8,40 +8,41 @@
     <link rel="stylesheet" type="text/css" href = "style.css">
 </head>
 <body>  
-  <div id="container">
+ <!--  <div id="container">-->
     <form id="form" method="GET" enctype="multipart/form-data">
 
        <h1 id="title">TrybeTrip</h1>
        <img id="img" src="./icons/globe.png">
-
-       <label  id="nome-completo">Nome:
+       <div id="i1">
+       <label  id="nome-completo" class="forms-label" >Nome:</label>
            <input type="text" placeholder="Digite seu nome"  minlength="10" maxlength="40"  required>
-       </label>
-       <label class="forms-label">Email:
+       
+       <label class="forms-label">Email: </label>
            <input type="text" placeholder="Digite seu email" minlength="10" maxlength="50" required>
-       </label>
+          </div>
+      
 
    
   
-
-        <label for="viagem-1" >Cidade
+       <div id="disks">
+        <label for="viagem-1" >Cidade </label>
         <input type="radio" id="viagem-1" class="disk" name="tipo-local"  value="Cidade" checked>
-        </label>
+     
 
-        <label for="viagem-2">Campo
-        <input type="radio"  id="viagem-2"class="disk" name="tipo-local" value="Campo">
-        </label>
+        <label for="viagem-1">Campo </label>
+        <input type="radio"  id="viagem-1"class="disk" name="tipo-local" value="Campo">
+      
 
-        <label for="viagem-3">Praia
-        <input type="radio" id="viagem-3" class="disk" name="tipo-local"  value="Praia" >
-        </label >
+        <label for="viagem-1">Praia  </label >
+        <input type="radio" id="viagem-1" class="disk" name="tipo-local"  value="Praia" >
     
-        <label for="viagem-4">Montanha
-        <input type="radio"  id="viagem-4" class="disk"  name="tipo-local"  value="Montanha" >
-        </label>
+        <label for="viagem-1">Montanha </label>
+        <input type="radio"  id="viagem-1" class="disk"  name="tipo-local"  value="Montanha" >
+        
+       </div>
    
    
-      <p> Digite sua resposta:</p>
+    <p id="textoarea">Digite sua resposta:</p>
     <textarea name="resposta-formulario" id="resposta" cols="50" rows="10" maxlength="500" ></textarea>
     
     <label id="data"> Qual a melhor data para realizar sua viagem?
@@ -56,10 +57,10 @@
         <input type="checkbox" id="option2">
     </label>
 
-   <!-- <button type="submit">Enviar</button>
-    <button type="reset">Apagar</button> -->
+  <button type="submit" class ="botoes">Enviar</button>
+    <!-- <button type="reset">Apagar</button> -->
 </form>
-  </div>
+
   <script src="script.js"></script>
 </body>
 </html>
