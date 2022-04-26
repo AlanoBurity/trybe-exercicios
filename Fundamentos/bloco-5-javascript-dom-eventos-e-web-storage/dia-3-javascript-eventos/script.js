@@ -48,19 +48,32 @@ function createDaysOfTheWeek() {
 
 
 //2
+const botaoContainer = document.querySelector('.buttons-container');
 
-function cBotao(string){
- const botaoContainer = document.querySelector('.buttons-container');
- const botao = document.createElement('div');
-
-
- botao.id = 'btn-holiday';
- botao.className = 'buttons-container';
- botao.innerHTML = '<button>Feriado</button>';
- botaoContainer.appendChild(botao);
-}
-cBotao('Alano');
+function criaBotao(string){
  
+ const botao = document.createElement('button');
+ botao.id = 'btn-holiday';
+ botao.innerText = string;
+ botaoContainer.appendChild(botao);
+ 
+}
+criaBotao('Feriado');
+ 
+
+const capturarBotaoFeriado = document.querySelector('#btn-holiday');
+
+const 
+capturarBotaoFeriado.addEventListener('click', alterarCorDoBotao);
+
+function alterarCorDoBotao (){
+
+  capturarBotaoFeriado.style.backgroundColor = 'red';
+  console.log("cliquei")
+
+
+
+}
 
 
 
