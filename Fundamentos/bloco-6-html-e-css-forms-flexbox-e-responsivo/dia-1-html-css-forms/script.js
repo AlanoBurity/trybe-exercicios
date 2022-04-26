@@ -1,4 +1,4 @@
-const select = document.querySelector('#container');
+/*const select = document.querySelector('#form');
 
 const btnErase = document.createElement('button')
 
@@ -12,4 +12,5 @@ btnErase.style.marginLeft = "170px";
 
 
 console.log(btn)
+*/
 
