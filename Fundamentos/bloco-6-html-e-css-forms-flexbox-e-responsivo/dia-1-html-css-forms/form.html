@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trybetrip</title>
+    <!-- <link rel="stylesheet" type="text/css" href = "style.css"> -->
+    <link rel="stylesheet" href="/bootstrap-5.1.3-dist/css/bootstrap-grid.min.css">
+    <script src="/jquery-3.6.0.min.js"></script>
+    <script src="/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>  
+ <!--  <div id="container">-->
+    <form id="form" method="GET" enctype="multipart/form-data">
+
+       <h1 id="title" class="display-4 text-muted">TrybeTrip</h1>
+       <img id="img" src="./icons/globe.png">
+       <div  id="i1"class="form-group" >
+       <label  id="nome-completo" class="forms-label" >Nome:</label>
+           <input type="text" placeholder="Digite seu nome"  minlength="10" maxlength="40"  required>
+       
+       <label class="forms-label">Email: </label>
+           <input type="text" placeholder="Digite seu email" minlength="10" maxlength="50" required>
+          </div class="form-group">
+      
+
+   
+  
+       <div id="disks" class="form-group">
+        <label for="viagem-1" >Cidade </label>
+        <input type="radio" id="viagem-1" class="disk" name="tipo-local"  value="Cidade" checked>
+     
+
+        <label for="viagem-1">Campo </label>
+        <input type="radio"  id="viagem-1"class="disk" name="tipo-local" value="Campo">
+      
+
+        <label for="viagem-1">Praia  </label >
+        <input type="radio" id="viagem-1" class="disk" name="tipo-local"  value="Praia" >
+    
+        <label for="viagem-1">Montanha </label>
+        <input type="radio"  id="viagem-1" class="disk"  name="tipo-local"  value="Montanha" >
+        
+       </div>
+   
+       <div id="i2">
+    <p id="textoarea">Digite sua resposta:</p>
+    <textarea name="resposta-formulario" id="resposta" cols="50" rows="10" maxlength="500" ></textarea>
+    </div class="form-group">
+    <div id="i3">
+    <label id="data"> Qual a melhor data para realizar sua viagem?
+        <input type="date" id="data">
+    </label>
+    </div>
+
+   <div id="i4">
+    <label id="option1"> Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+        <input type="checkbox" id="option1">
+    </label>
+   </div>
+    <div  id="i5">
+    <label id="option2"> Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
+        <input type="checkbox" id="option2">
+    </label>
+  </div>
+
+   <div id="btn"> 
+     
+  <button type="submit" class ="botoes">Enviar</button>
+  <button type="reset">Apagar</button> 
+</div>
+</form>
+
+  <script src="script.js"></script>
+</body>
+</html>
