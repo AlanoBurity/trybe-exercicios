@@ -10,6 +10,19 @@
     width: 600px;
     margin: auto;
 }
-#ratios {
-    margin-left: 1000px;
+.teste {
+    display: flex;
+    margin-left: 750px;
+    margin-top: 20px;
+}
+.teste2 {
+    display:flex;
+    flex-direction: column;
+    margin-left: 600px;
+    margin-top: 30px;
+}
+.areatext {
+ 
+    width: 600px;
+    margin: auto;
 }
