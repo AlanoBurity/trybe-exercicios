@@ -70,7 +70,7 @@ h4 {
   order:0;
 }
 .list > .it:nth-child(2){
-  order:5;
+  order: 5px;;
 }
 .list > .it:nth-child(3){
   order:2;
