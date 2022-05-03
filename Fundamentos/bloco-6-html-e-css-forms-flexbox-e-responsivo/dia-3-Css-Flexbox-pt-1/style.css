@@ -41,6 +41,7 @@
   margin: auto;
 
 
+
 }
 footer {
   display: flex;
@@ -59,6 +60,27 @@ h4 {
   border-radius: 10px;
   background-color:#f1f1f1 ;
   padding: 5px;
+ 
+  height: 200px;
+
 
   
+}
+.list > .it:nth-child(1){
+  order:0;
+}
+.list > .it:nth-child(2){
+  order:5;
+}
+.list > .it:nth-child(3){
+  order:2;
+}
+.list > .it:nth-child(4){
+  order:3;
+}
+.list > .it:nth-child(5){
+  order:4;
+}
+.list > .it:nth-child(6){
+  order:1;
 }
