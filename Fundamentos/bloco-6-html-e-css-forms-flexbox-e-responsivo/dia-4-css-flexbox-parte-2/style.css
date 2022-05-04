@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  }
+
+  
+  body {
+    background-color: rgb(247, 247, 247);
+  }
+  
+  .header-container {
+    background-color: #5C687C;
+    display: flex;
+    border: 2px solid rgb(223, 89, 89);
+    position: absolute;
+    width: 100%;
+ 
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    flex-basis: 268px;
+    border: 2px solid #157023;
+    order:0;
+  }
+  
+  .menu-container {
+    display: flex;
+    flex-basis: 500px;
+    border: 2px solid rgb(35, 47, 126);
+    order: 1;
+    flex-grow: 1;
+  
+   
+  }
+  
+  .menu-container ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    border: 2px solid rgb(181, 193, 86);
+    align-items: flex-start;
+    align-items: center;
+
+   
+
+    
+  
+ 
+    
+  }
+
+  .menu-container li {
+    color: white;
+    font-weight: 500;
+    font-size: 1.0rem;
+    list-style: none;
+    margin-right: 10px;
+    border: 2px solid black;
+
+  }
+ /* PArte 2 */
+ .main-container {
+  display: flex;
+  border: 2px solid #1a097e;
+  justify-content: space-around;
+}
+.movie-container {
+  display: flex;
+  flex-direction: column;
+  margin-top:100px;
+  border: 2px solid #801616;
+  flex-grow: 10;
+  /* utilizado para dar o tamanho das div filhas*/
+  flex-basis: 700px;
+  
+ 
+   
+}
+.movie-container h2 {
+  margin: 40px 0;
+  text-align: center;
+
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+
+ 
+
+ 
+  
+}
+
+.card-container div {
+  align-items: center;
+  background-color: #5C687C;
+  border: black solid 1px;
+  display: flex;
+  height: 150px;
+  flex-basis: 16%;
+  justify-content: center;
+  /* utilizado par colocar os filmes no centro dos quadrados */
+  margin: 10px;
+  flex-grow: 1;
+  
+
+  
+ 
+
+}
+
+.aside-container {
+  display: flex;
+  flex-direction: column;
+ 
+  margin-top: 100px;
+  flex-basis: 350px;
+  align-self: center;
+  flex-grow:1;
+  /* utilizado para deixar os quadrados esticados do mesmo tamanho */ 
+  text-align: center;
+  padding: 20px;
+
+ 
+  
+}
+
+.aside-container p {
+  margin: 10px 0;
+  text-align: justify;
+}
+ 
