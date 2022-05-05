@@ -96,6 +96,56 @@ html {
  }
  @media  (min-width:1001px){
 
+   header p {
+       font-size: 4.0em;
+   }
+   header li {
+    font-size: 2.0em;
+  }
+   h2{
+    font-size: 3.0em;
+   }
+   
+   
+   .aside-one {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aside-one  li {
+    font-size: 2.0em;
+}
+   .aside-two {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aside-two li {
+    font-size: 2.0em;
+    
+}
+.main-content h1 {
+    font-size: 3.0em;
+    margin-top: 60px;
+}
+.main-content p {
+    font-size: 2.0em;
+    width: 70%;
+    text-align: justify;
+    margin-left: 300px;
+}
+footer h3{
+    font-size: 3.0em;
 
-  
+}
+footer p{
+    font-size: 1.5em;
+    width: 70%;
+    text-align: justify;
+    margin-left: 300px;
+    font-style: italic;
+
+}
+
  }
+
