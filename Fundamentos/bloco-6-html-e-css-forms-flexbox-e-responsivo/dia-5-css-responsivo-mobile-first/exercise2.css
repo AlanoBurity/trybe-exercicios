@@ -45,4 +45,57 @@ html {
      text-align: justify;
      margin: 20px;
  }
+ @media (min-width:500px) and (max-width:1000px){
 
+
+    header {
+
+        font-size: 2.0em;
+    }
+    h2{
+        font-size: 2.0em;
+    }
+    .aside-one  {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .aside-one h2{
+        border-bottom: 2px solid grey;
+    }
+    .aside-one li{
+        font-size: 1.6em;
+    }
+
+    .aside-two {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .aside-two li{
+        font-size: 1.7em;
+    }
+    .main-content {
+        margin: 40px;
+    }
+    .main-content h1 {
+        font-size: 1.9em;
+        margin-top: 80px;
+    }
+    p{
+        font-size: 1.8em;
+    }
+    h3{
+        font-size: 1.8em;
+    }
+    footer {
+        margin: 40px;
+        font-size: 0.8em;
+    }
+
+ }
+ @media  (min-width:1001px){
+
+
+  
+ }
