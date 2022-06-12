@@ -34,4 +34,25 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 4-2: _JavaScript - Array e loop For_
 - [X] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [X] 4-4: _JavaScript -- Objetos e funções_
-- [ ] 4-5: _[Projeto - Playground Functions](https://github.com/tryber/sd-022-a-project-playground-functions)_
+- [X] 4-5: _[Projeto - Playground Functions](https://github.com/tryber/sd-022-a-project-playground-functions)_
+
+##### Bloco 05: JavaScript: DOM, Eventos e Web Storage
+- [X] 5-1: _JavaScript - DOM e seletores_
+- [X] 5-2: _JavaScript - Trabalhando com elementos_
+- [X] 5-3: _JavaScript - Eventos_
+- [X] 5-4: _JavaScript - Web Storage_
+- [X] 5-5: _[Projeto - Arte com Pixels](https://github.com/tryber/sd-022-a-project-pixels-art)_
+
+##### Bloco 6 - HTML e CSS: Forms, Flexbox e Responsivo
+- [X] 6-1: _HTML & CSS - Forms_
+- [X] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
+- [X] 6-3: _CSS Flexbox - Parte 1_
+- [X] 6-4: _CSS Flexbox - Parte 2_
+- [X] 6-5: _CSS Responsivo - Mobile First_
+- [X] 6-6: _[Projeto - Trybewarts](https://github.com/tryber/sd-022-a-project-trybewarts)_
+
+##### Bloco 7 - Introdução à JavaScript ES6 e Testes Unitários
+- [X] 7-1: _JavaScript ES6 - let, const, arrow functions e template literal_
+- [X] 7-2: _JavaScript ES6 - Fluxo de exceção e Objetos_
+- [X] 7-3: _Primeiros passos em Jest_
+- [X] 7-4: _[Projeto - JavaScript Testes Unitários](https://github.com/tryber/sd-022-a-project-js-unit-tests)_
