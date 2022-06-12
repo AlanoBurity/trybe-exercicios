@@ -50,3 +50,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 6-4: _CSS Flexbox - Parte 2_
 - [X] 6-5: _CSS Responsivo - Mobile First_
 - [X] 6-6: _[Projeto - Trybewarts](https://github.com/tryber/sd-022-a-project-trybewarts)_
+
+##### Bloco 7 - Introdução à JavaScript ES6 e Testes Unitários
+- [X] 7-1: _JavaScript ES6 - let, const, arrow functions e template literal_
+- [X] 7-2: _JavaScript ES6 - Fluxo de exceção e Objetos_
+- [X] 7-3: _Primeiros passos em Jest_
+- [X] 7-4: _[Projeto - JavaScript Testes Unitários](https://github.com/tryber/sd-022-a-project-js-unit-tests)_
