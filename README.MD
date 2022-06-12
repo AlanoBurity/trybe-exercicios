@@ -45,7 +45,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 6 - HTML e CSS: Forms, Flexbox e Responsivo
 - [X] 6-1: _HTML & CSS - Forms_
-- [X] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
+- [X] 6-2: _Bibliotecas JavaScript e Frameworks CSS (Bootstrap)_
 - [X] 6-3: _CSS Flexbox - Parte 1_
 - [X] 6-4: _CSS Flexbox - Parte 2_
 - [X] 6-5: _CSS Responsivo - Mobile First_
@@ -56,3 +56,22 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 7-2: _JavaScript ES6 - Fluxo de exceção e Objetos_
 - [X] 7-3: _Primeiros passos em Jest_
 - [X] 7-4: _[Projeto - JavaScript Testes Unitários](https://github.com/tryber/sd-022-a-project-js-unit-tests)_
+
+##### Bloco 8 - Higher Order Functions do JavaScript ES6
+- [X] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
+- [X] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
+- [X] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
+- [X] 8-4: _JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais_
+- [X] 8-5: _[Projeto - Zoo functions](https://github.com/tryber/sd-022-a-project-zoo-functions)_
+
+
+## Desenvolvimento Front-end :white_check_mark:
+
+##### Bloco 09: JavaScript e Testes Assíncronos
+- [X] 9-1: _JavaScript Assíncrono e Callbacks_
+- [X] 9-2: _JavaScript Assíncrono - Fetch API e async/await_
+- [X] 9-3: _Jest - Testes Assíncronos_
+- [X] 9-4: _[Projeto - Carrinho de Compras](https://github.com/tryber/sd-022-a-project-shopping-cart)_
+
+
+
