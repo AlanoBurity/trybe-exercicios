@@ -1,0 +1,29 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: solid black 2px;
+  border-radius: 20px;
+  width: 500px;
+  height: 100%;
+  margin-left: 400px;
+  background-color: beige;
+}
+
+.dexImg {
+  display: flex;
+  width: 200px;
+  height: 75px;
+
+}
+.dex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card { 
+  display: flex;
+  flex-direction: row;
+  border: solid black 2px;
+  width: 175px;
+  height: 175px;
+}
